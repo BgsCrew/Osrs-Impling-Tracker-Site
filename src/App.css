@@ -1,0 +1,26 @@
+.App {
+  padding: 2rem;
+  transition: background-color 0.3s ease;
+  display: grid;
+  justify-items: center;
+}
+
+.App.alert {
+  background-color: red;
+  color: white;
+}
+
+.feed {
+  max-height: 50vh;
+  overflow-y: auto;
+  background: #f7f7f7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.alert-box {
+  background: rgba(255,255,255,0.2);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
